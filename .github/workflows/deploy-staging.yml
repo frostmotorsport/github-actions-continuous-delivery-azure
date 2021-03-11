@@ -51,6 +51,7 @@ jobs:
         password: ${{secrets.GITHUB_TOKEN}}
         registry: docker.pkg.github.com
         repository: frostmotorsport/github-actions-continuous-delivery-azure/tic-tac-toe
+        # not sure what the repo shoudl be
         tag_with_sha: true
       
   Deploy-to-Azure:
