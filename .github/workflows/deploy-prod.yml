@@ -6,10 +6,11 @@ on:
     - main
 
 env:
+  IMAGE_REGISTRY_URL: docker.pkg.github.com
+  #AZURE_RESOURCE_GROUP: cd-with-actions
+  #AZURE_APP_PLAN: actions-ttt-deployment
+  #AZURE_LOCATION: '"Australia East"'
   DOCKER_IMAGE_NAME: frostmotorsport-azure-ttt2
-  AZURE_RESOURCE_GROUP: cd-with-actions
-  AZURE_APP_PLAN: actions-ttt-deployment
-  AZURE_LOCATION: '"Australia East"'
   #################################################
   ### USER PROVIDED VALUES ARE REQUIRED BELOW   ###
   #################################################
