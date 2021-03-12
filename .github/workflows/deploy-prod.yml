@@ -74,6 +74,7 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: ${{env.AZURE_WEBAPP_NAME}}
+          publish-profile: ${{ secrets.PUBLISH-PROFILE }}
         # images: ${{env.IMAGE_REGISTRY_URL}}/${{ github.repository }}/${{env.DOCKER_IMAGE_NAME}}:${{ github.sha }}
 
       - name: Azure logout
