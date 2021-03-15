@@ -11,7 +11,7 @@ env:
   #AZURE_APP_PLAN: actions-ttt-deployment
   #AZURE_LOCATION: '"Australia East"'
   DOCKER_IMAGE_NAME: frostmotorsport-azure-ttt2
-  #################################################
+  ################################################
   ### USER PROVIDED VALUES ARE REQUIRED BELOW   ###
   #################################################
   #################################################
